@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.top-banner{
+    background-image: url(images/wave.svg);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+}
+img{
+    width: 70%;
+    border: 5px solid rgb(223, 219, 215); 
+    border-radius:50%;
+    aspect-ratio: 1/1.2;
+}
+.link{
+    text-decoration: none;
+    padding:10px 20px;
+    color: white;
+    background-color: blue;
+    background-image: linear-gradient(blue,blueviolet);
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 700;
+}
+.text-white{
+    color: rgb(227, 211, 211);  
+}
+.my-description{
+    font-size:25px;
+    text-align: justify;
+    padding-right: 25px;
+}
