@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -10,7 +10,10 @@ h1{
 h2{
     font-size: 40px;
 }
-section{
+h3{
+    font-size: 30px;
+}
+.flexible-container{
     display: flex;
     justify-content: space-around;
     padding: 5%;
@@ -46,52 +49,34 @@ img{
     text-align: justify;
     padding-right: 25px;
 }
-=======
-body{
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+.specialize-head{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 0 20%;
 }
-h1{
-    font-size: 50px;
+.my-description2{
+    font-size: 25px;
+    margin-top: -20px;
 }
-h2{
-    font-size: 40px;
-}
-section{
+.parent{
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    padding:20px;
+    margin: 0 10%;
 }
-.top-banner{
-    background-image: url(images/wave.svg);
-    background-repeat: no-repeat;
+.parent div{
+    padding:60px;
+    box-shadow: 10px 5px 40px black;
+    margin: 2%;
+    border-radius:0 20px 50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,blueviolet,cyan) 0 100%;
 }
-.half-width{
-    width: 50%;
-}
-img{
-    width: 70%;
-    border: 5px solid rgb(223, 219, 215); 
-    border-radius:50%;
-    aspect-ratio: 1/1.2;
-}
-.link{
-    text-decoration: none;
-    padding:10px 20px;
-    color: white;
-    background-color: blue;
-    background-image: linear-gradient(blue,blueviolet);
-    border-radius: 10px;
-    font-size: larger;
-    font-weight: 700;
-}
-.text-white{
-    color: rgb(227, 211, 211);  
-}
-.my-description{
-    font-size:25px;
+.parent div p{
+    font-size: 25px;
     text-align: justify;
-    padding-right: 25px;
 }
->>>>>>> a982bfb (first commit)
+footer{
+    text-align: center;
+}
